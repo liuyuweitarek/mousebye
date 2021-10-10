@@ -1,3 +1,3 @@
 # mousebye
 
-# A chrome extension that hide your friends browser mouse. Enjoy! 
+# A chrome extension that hide your friends' cursor. Enjoy! 
