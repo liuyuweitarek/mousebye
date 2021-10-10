@@ -1,0 +1,25 @@
+{
+  "name": "fu0km0us3",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/launch.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {                // optional
+      "16": "images/icon16.png",
+      "128": "images/icon128.png"     // optional
+    }, 
+    "default_title": "fu0km0us3"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    // "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "permissions": ["tabs"]
+}
